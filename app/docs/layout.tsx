@@ -39,11 +39,11 @@ export default function Layout({ children }: { children: ReactNode }) {
                   }}><IconLayout />
                   </div>
                 ),
-                description: "Play with Given Code",
+                description: "Play with Built Code",
                 url: "/docs/folder-2/intro",
               },
               {
-                title: "Folder-3",
+                title: "CLI Tools",
                 icon: (
                   <div className="size-9 shrink-0 rounded-md bg-gradient-to-t from-background/80 p-1.5"
                   style={{
@@ -52,8 +52,8 @@ export default function Layout({ children }: { children: ReactNode }) {
                   }}><IconLayout />
                   </div>
                 ),
-                description: "Docs of Folder 3",
-                url: "/docs/folder-3/test4",
+                description: "Play with CLI Commands",
+                url: "/docs/folder-3/intro",
               },
             ]}
           />

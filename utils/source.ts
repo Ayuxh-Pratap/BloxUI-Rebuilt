@@ -61,9 +61,12 @@ export const pageTree: PageTree.Root = {
       root: true,
       defaultOpen: false,
       children: [
-        { type: "separator", name: "Folder-3" },
-        { type: "page", name: "Home", url: "/docs/folder-3/test4" },
-        { type: "page", name: "Code", url: "/docs/folder-3/test5" },
+        { type: "separator", name: "Get Started" },
+        { type: "page", name: "Introduction", url: "/docs/folder-3/intro" },
+        { type: "page", name: "How to Use", url: "/docs/folder-3/how2" },
+
+        { type: "separator", name: "Templates" },
+        { type: "page", name: "Portfolio", url: "/docs/folder-2/button" },
       ],
     },
   ],
