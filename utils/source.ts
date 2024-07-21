@@ -3,6 +3,8 @@ import { createMDXSource } from "fumadocs-mdx";
 import { loader } from "fumadocs-core/source";
 import { PageTree } from "fumadocs-core/server";
 import { type BaseLayoutProps } from "fumadocs-ui/layout";
+import { Code2, Layout as IconLayout } from "lucide-react";
+import { HomeIcon } from 'lucide-react';
 
 export const {
   getPage,
@@ -73,7 +75,7 @@ export const pageTree: PageTree.Root = {
         { type: "separator", name: "Templates" },
         { type: "separator", name: "Portfolio" },
         { type: "page", name: "Portfolio1", url: "/docs/folder-3/portfolio" },
-        { type: "page", name: "Portfolio2", url: "/docs/folder-3/portfolio1" },
+        { type: "page", name: "Portfolio2", url: "/docs/folder-3/portfolio1"},
       ],
     },
   ],
@@ -91,6 +93,10 @@ export const sidebarOptions: BaseLayoutProps = {
     },
     {
       text: "Porfolio",
+      url: "/",  
+    },
+    {
+      text: "Buy Premium",
       url: "/",  
     },
   ],
