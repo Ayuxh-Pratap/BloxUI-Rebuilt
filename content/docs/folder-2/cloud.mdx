@@ -1,0 +1,104 @@
+---
+title: Components>
+date: 2024-05-22
+description: A button with a Shin.
+author: ayush
+published: true
+---
+
+import { Tab, Tabs } from 'fumadocs-ui/components/tabs';
+import {Callout} from "fumadocs-ui/components/callout";
+import TextCloud from "components/TextCloud";
+import { Pre, CodeBlock } from 'fumadocs-ui/components/codeblock';
+
+
+## Text Cloud
+Card Component that Shine with the Cursor when  `Hovered`.
+
+<Tabs items={['Preview', 'Code']}>
+  <Tab value="Preview">
+  <TextCloud />
+  </Tab>
+  <Tab value="Code">
+  ```typescript
+  import TextCloud from "@/components/bloxui/text-cloud";
+
+const slugs = [
+    "Tailwind",
+    "SCSS",
+    "Axios",
+    "Tanstack",
+    "Cloudinary",
+    "Redux",
+    "Zustand",
+    "Zod",
+    "Bootstrap",
+    "React Native",
+    "Next",
+    "MongoDB",
+    "Mongoose",
+    "MySQL",
+    "Postgres",
+    "Prisma",
+    "Firebase",
+    "Git",
+    "cPanel",
+    "Heroku",
+    "JSON",
+    "VS Code",
+    "REST API",
+    "Stripe",
+];
+
+export function TextCloudDemo() {
+  return (
+    <div className="relative flex h-full w-full max-w-[32rem] items-center justify-center overflow-hidden rounded-lg border bg-background px-20 pb-20 pt-8 ">
+      <TextCloud iconSlugs={slugs} />
+    </div>
+  );
+}
+  ```
+  </Tab>
+</Tabs>
+
+In this directory, there should be rolling daily logs:
+
+```bash copy title="terminal"
+npm i @frank-mayer/react-tag-cloud
+```
+
+```sh copy
+components/bloxui/text-cloud.tsx
+```
+
+```js filename="tailwind.config.js" copy
+"use client"
+
+import { TagCloud } from "@frank-mayer/react-tag-cloud";
+
+interface TextCloudProps {
+  iconSlugs: string[];
+}
+
+const TextCloud = ({ iconSlugs }: TextCloudProps) => (
+  <TagCloud
+    options={(w) => ({
+      radius: 200,
+      maxSpeed: "normal",
+      initSpeed: "normal",
+      keep: true,
+    })}
+    onClickOptions={{ passive: true }}
+  >
+    {...iconSlugs}
+  </TagCloud>
+);
+
+
+export default TextCloud;
+```
+<Callout type="info">
+You can play with the Styling of Main "div" to Change Card Theme According to Your Websites's aesthetics
+</Callout>
+
+Extend `height` with new value and install plugins to work with image.

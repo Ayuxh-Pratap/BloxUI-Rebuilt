@@ -53,6 +53,7 @@ export const pageTree: PageTree.Root = {
 
         { type: "separator", name: "Components" },
         { type: "page", name: "Shiny Card", url: "/docs/folder-2/card" },
+        { type: "page", name: "Text Cloud", url: "/docs/folder-2/cloud" },
 
         { type: "separator", name: "Buttons" },
         { type: "page", name: "Squeezy Button", url: "/docs/folder-2/button" },
