@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "framer-motion": "^11.3.8",
     "fumadocs-core": "12.4.1",
     "fumadocs-mdx": "8.2.33",
     "fumadocs-ui": "12.4.1",

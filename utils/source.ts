@@ -52,7 +52,7 @@ export const pageTree: PageTree.Root = {
         { type: "page", name: "How to Use", url: "/docs/folder-2/how2" },
 
         { type: "separator", name: "Components" },
-        { type: "page", name: "Card", url: "/docs/folder-2/test" },
+        { type: "page", name: "Shiny Card", url: "/docs/folder-2/card" },
 
         { type: "separator", name: "Buttons" },
         { type: "page", name: "Squeezy Button", url: "/docs/folder-2/button" },
