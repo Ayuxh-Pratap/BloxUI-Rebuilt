@@ -7,6 +7,7 @@ published: true
 ---
 
 import { Tab, Tabs } from 'fumadocs-ui/components/tabs';
+import {Callout} from "fumadocs-ui/components/callout";
 
 If you are having technical issues with the GitButler client, here are a few things you can do to help us help you. Or help yourself.
 
@@ -14,13 +15,46 @@ If you get stuck or need help with anything, hit us up over on Discord, here's [
 
 <img src="/img/nothing-found.svg" className="w-56 mx-auto" />
 
+### Requirement
+
+```sh copy
+npm i @tailwindcss/aspect-ratio
+```
+
+Extend `height` with new value and install plugins to work with image.
+
+<Callout type="info">
+You can play with the Styling of Main "div" to Change Card Theme According to Your Websites's aesthetics
+</Callout>
+
+
+```js filename="tailwind.config.js" copy
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+	...,
+	theme: {
+		extend: {
+			height: {
+				100: "30rem",
+			},
+			width:{
+				90:"22rem",
+			}
+		},
+	},
+	plugins: [require("@tailwindcss/aspect-ratio")],
+};
+```
+
+Extend `height` with new value and install plugins to work with image.
+
 ## Logs
 
 Often the most helpful thing is to look at the logs. GitButler is a Tauri app, so the logs are in your OS's [app log directory](https://docs.rs/tauri/latest/tauri/api/path/fn.app_log_dir.html). This should be:
 
 <Tabs items={['Preview', 'Code']}>
   <Tab value="Preview">
-  ## hi
+  <button3d />
   </Tab>
   <Tab value="Code">
   ```bash

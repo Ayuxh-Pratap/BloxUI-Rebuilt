@@ -52,7 +52,11 @@ export const pageTree: PageTree.Root = {
         { type: "page", name: "How to Use", url: "/docs/folder-2/how2" },
 
         { type: "separator", name: "Components" },
-        { type: "page", name: "Button", url: "/docs/folder-2/button" },
+        { type: "page", name: "Card", url: "/docs/folder-2/test" },
+
+        { type: "separator", name: "Buttons" },
+        { type: "page", name: "Squeezy Button", url: "/docs/folder-2/button" },
+        { type: "page", name: "Rolling Button", url: "/docs/folder-2/button1" },
       ],
     },
     {
@@ -66,7 +70,7 @@ export const pageTree: PageTree.Root = {
         { type: "page", name: "How to Use", url: "/docs/folder-3/how2" },
 
         { type: "separator", name: "Templates" },
-        { type: "page", name: "Portfolio", url: "/docs/folder-2/button" },
+        { type: "page", name: "Portfolio", url: "/docs/folder-3/button" },
       ],
     },
   ],
