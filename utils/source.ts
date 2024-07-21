@@ -71,7 +71,9 @@ export const pageTree: PageTree.Root = {
         { type: "page", name: "How to Use", url: "/docs/folder-3/how2" },
 
         { type: "separator", name: "Templates" },
-        { type: "page", name: "Portfolio", url: "/docs/folder-3/button" },
+        { type: "separator", name: "Portfolio" },
+        { type: "page", name: "Portfolio1", url: "/docs/folder-3/portfolio" },
+        { type: "page", name: "Portfolio2", url: "/docs/folder-3/portfolio1" },
       ],
     },
   ],

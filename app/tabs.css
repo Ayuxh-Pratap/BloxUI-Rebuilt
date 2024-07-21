@@ -1,0 +1,27 @@
+/* Ensure the tab list container can scroll horizontally */
+.scrollable-tabs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1rem;
+  }
+
+  .grid-container1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1rem;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .tabs-bg {
+    background: red;
+    background-color: red;
+  }
