@@ -5,12 +5,43 @@ published: true
 ---
 
 import { Step, Steps } from 'fumadocs-ui/components/steps';
+import ImageSection from "@/components/mdx/ImageSection"
+import VideoSection from "@/components/mdx/VideoSection"
 
 <Steps>
 
 ### Information
 
-Snippet UI currently only support **React/Next**. This project and all components are written in **TypeScript**. We recommend using TypeScript for your project as well. But it's not required.
+BloxUI currently only support **React/Next**. This project and all components are written in **TypeScript / JavaScript**. We recommend using TypeScript for your project as well. But it's not required.
+
+### Initialize BloxUI
+
+run this npx command to Initialize bloxui in your directory
+
+```bash copy title="terminal"
+npx bloxui-comadd init
+```
+
+On installation, you'll see the following prompts:
+
+```bash copy title="terminal"
+? Do you want to initialize BloxUI in this directory? Y/n
+```
+
+After the prompts, `bloxui-comadd` will create a bloxui config file and will create the required file folders.
+
+If you're new to BloxUI, see the project structure docs for an overview of all the possible files and folders in your application.
+
+#### Once Completed ✅
+your terminal will look something like this;
+
+<VideoSection
+  width={700}
+  height={600}
+  className="w-full"
+  alt="Git Authentication Settings"
+  src="/init/blox-init.png"
+/>
 
 ### Prerequisites
 
@@ -20,17 +51,6 @@ These are the main dependencies you will need to get started.
 npm install -D tailwindcss@latest clsx tailwind-merge framer-motion lucide-react
 ```
 
-Copy and paste the following code into your project.
-
-```typescript
-// lib/utils.ts
-import clsx, { ClassValue } from "clsx";
-import { twMerge } from "tailwind-merge";
-
-export function cn(...inputs: ClassValue[]) {
-  return twMerge(clsx(inputs));
-}
-```
 ### Install components
 
 That's it! Now you can go to any [component](/components) page and follow the instructions there
