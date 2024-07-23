@@ -81,6 +81,21 @@ export const pageTree: PageTree.Root = {
         { type: "page", name: "BloxUI", url: "/docs/folder-3/saas1" },
       ],
     },
+    {
+      type: "folder",
+      name: "Folder 4",
+      root: true,
+      defaultOpen: false,
+      children: [
+        { type: "separator", name: "Get Started" },
+        { type: "page", name: "Introduction", url: "/docs/folder-4/intro" },
+        { type: "page", name: "How to Use", url: "/docs/folder-4/how2" },
+
+        { type: "separator", name: "Hero Section" },
+        { type: "page", name: "Hero 1", url: "/docs/folder-4/hero" },
+        
+      ],
+    },
   ],
 };
 

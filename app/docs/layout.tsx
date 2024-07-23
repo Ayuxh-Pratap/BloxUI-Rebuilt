@@ -43,7 +43,7 @@ export default function Layout({ children }: { children: ReactNode }) {
                 url: "/docs/folder-2/intro",
               },
               {
-                title: "CLI Tools",
+                title: "CLI Components",
                 icon: (
                   <div className="size-9 shrink-0 rounded-md bg-gradient-to-t from-background/80 p-1.5"
                   style={{
@@ -52,7 +52,20 @@ export default function Layout({ children }: { children: ReactNode }) {
                   }}><IconLayout />
                   </div>
                 ),
-                description: "Play with CLI Commands",
+                description: "Components through CLI",
+                url: "/docs/folder-4/intro",
+              },
+              {
+                title: "CLI Templates",
+                icon: (
+                  <div className="size-9 shrink-0 rounded-md bg-gradient-to-t from-background/80 p-1.5"
+                  style={{
+                    backgroundColor: `hsl( 250 100% 80%/.3)`,
+                    color: `hsl( 250 100% 80%)`,
+                  }}><IconLayout />
+                  </div>
+                ),
+                description: "Templates through CLI",
                 url: "/docs/folder-3/intro",
               },
             ]}
