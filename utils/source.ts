@@ -79,6 +79,7 @@ export const pageTree: PageTree.Root = {
         { type: "separator", name: "Saas Platforms" },
         { type: "page", name: "SmartNotes", url: "/docs/folder-3/saas" },
         { type: "page", name: "BloxUI", url: "/docs/folder-3/saas1" },
+        { type: "page", name: "Streamlit", url: "/docs/folder-3/saas2" },
       ],
     },
     {
