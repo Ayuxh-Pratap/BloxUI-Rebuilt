@@ -80,6 +80,9 @@ export const pageTree: PageTree.Root = {
         { type: "page", name: "SmartNotes", url: "/docs/folder-3/saas" },
         { type: "page", name: "BloxUI", url: "/docs/folder-3/saas1" },
         { type: "page", name: "Streamlit", url: "/docs/folder-3/saas2" },
+        { type: "page", name: "VsCode", url: "/docs/folder-3/saas3" },
+        { type: "page", name: "OneTask", url: "/docs/folder-3/saas4" },
+        { type: "page", name: "SpendIn", url: "/docs/folder-3/saas5" },
       ],
     },
     {
