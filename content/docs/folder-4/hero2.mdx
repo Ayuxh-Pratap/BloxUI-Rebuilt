@@ -1,0 +1,69 @@
+---
+title: Hero Section>
+description: more about BloxUI
+---
+
+import Hero2 from "/components/section/hero/Hero2"
+import ImageSection from "@/components/mdx/ImageSection"
+import { Step, Steps } from 'fumadocs-ui/components/steps';
+
+
+## Hero 2
+
+GitButler can authenticate with an upstream Git server in several different ways.
+
+ You can just tell us to use the system Git executable, which you can setup however you want. You can use our built in SSH protocol with either your own SSH key or a key we automatically generate for you (this does not require you to have Git installed), or you can use the default [Git credentials helper](https://git-scm.com/doc/credential-helpers).
+
+You can set your preference (and test if it works) in your project's "Git authentication" section:
+
+<Hero2 />
+
+<ImageSection
+  width={700}
+  height={600}
+  className="w-full"
+  alt="Git Authentication Settings"
+  src="/section/hero/hero1.png"
+/>
+
+## Installation
+
+<Steps>
+<Step>
+ 
+### Choose Path
+start by opening your terminal at desired path 🧩
+ 
+</Step>
+ 
+<Step>
+ 
+### Init BloxUI
+paste the npx command as follows:
+
+```js copy
+npx bloxui-comadd init
+```
+ 
+</Step>
+
+<Step>
+ 
+### Add Hero1
+paste the npx command as follows:
+
+```js copy
+npx bloxui-comadd add Hero1
+```
+ 
+</Step>
+
+<Step>
+ 
+### Open Directory
+folder named "your-app-name" will be created with required dependencies , further:
+
+there , you are all set with your web template ✅
+ 
+</Step>
+</Steps>

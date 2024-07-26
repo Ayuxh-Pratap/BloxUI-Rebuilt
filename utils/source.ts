@@ -84,6 +84,7 @@ export const pageTree: PageTree.Root = {
         { type: "page", name: "VsCode", url: "/docs/folder-3/saas3" },
         { type: "page", name: "OneTask", url: "/docs/folder-3/saas4" },
         { type: "page", name: "SpendIn", url: "/docs/folder-3/saas5" },
+        { type: "page", name: "NextLand", url: "/docs/folder-3/saas6" },
       ],
     },
     {
@@ -98,6 +99,7 @@ export const pageTree: PageTree.Root = {
 
         { type: "separator", name: "Hero Section" },
         { type: "page", name: "Hero 1", url: "/docs/folder-4/hero" },
+        { type: "page", name: "Hero 2", url: "/docs/folder-4/hero2" },
         
       ],
     },
