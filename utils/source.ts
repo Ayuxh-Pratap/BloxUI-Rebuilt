@@ -108,6 +108,7 @@ export const pageTree: PageTree.Root = {
 
         { type: "separator", name: "About Section" },
         { type: "page", name: "About 1", url: "/docs/folder-4/about" },
+        { type: "page", name: "About 2", url: "/docs/folder-4/about1" },
         
       ],
     },
