@@ -100,6 +100,14 @@ export const pageTree: PageTree.Root = {
         { type: "separator", name: "Hero Section" },
         { type: "page", name: "Hero 1", url: "/docs/folder-4/hero" },
         { type: "page", name: "Hero 2", url: "/docs/folder-4/hero2" },
+        { type: "page", name: "Hero 3", url: "/docs/folder-4/hero3" },
+        { type: "page", name: "Hero 4", url: "/docs/folder-4/hero4" },
+        { type: "page", name: "Hero 5", url: "/docs/folder-4/hero5" },
+        { type: "page", name: "Hero 6", url: "/docs/folder-4/hero6" },
+        { type: "page", name: "Hero 7", url: "/docs/folder-4/hero7" },
+
+        { type: "separator", name: "About Section" },
+        { type: "page", name: "About 1", url: "/docs/folder-4/about" },
         
       ],
     },
