@@ -1,26 +1,37 @@
-# FumaDocs Template
+# BloxUI - Component Liberary
 
-This is a Next.js application generated with
-[Create Fumadocs](https://github.com/fuma-nama/fumadocs).
+[**Live Demo →**](https://blox-doc.vercel.app)
 
-Run development server:
+[![](.github/Screenshot1.png)](https://blox-doc.vercel.app)
 
-```bash
-npm run dev
-# or
-pnpm dev
-# or
-yarn dev
+## Quickly Start OpenSource Contribution
+
+Follow the process to fork the repo and start making contributions.
+
+### Initialize BloxUI
+
+run this npx command to Initialize bloxui in your directory
+
+```bash copy title="terminal"
+npx bloxui-comadd init
 ```
 
-Open http://localhost:3000 with your browser to see the result.
+On installation, you'll see the following prompts:
 
-## Learn More
+```bash copy title="terminal"
+? Do you want to initialize BloxUI in this directory? Y/n
+```
 
-To learn more about Next.js and Fumadocs, take a look at the following
-resources:
+After the prompts, `bloxui-comadd` will create a bloxui config file and will create the required file folders.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js
-  features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-- [Fumadocs](https://fumadocs.vercel.app) - learn about Fumadocs
+If you're new to BloxUI, see the project structure docs for an overview of all the possible files and folders in your application.
+
+### Install components
+
+That's it! Now you can go to any [component](/components) page and follow the instructions there
+
+You only need to copy + paste the components you need! No bloat or third-party dependencies.
+
+## License
+
+This project is licensed under the MIT License.
