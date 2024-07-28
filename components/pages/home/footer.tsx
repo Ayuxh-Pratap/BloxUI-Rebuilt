@@ -74,10 +74,10 @@ export default function Footer() {
         <div>
           <h5 className="pb-4 md:pb-9">Social</h5>
           <div className="space-y-4">
-            <a className="block text-xs text-white/60" href="#">
+            <a className="block text-xs text-white/60" href="https://github.com/Ayuxh-Pratap/BloxUI-Rebuilt">
               GitHub
             </a>
-            <a className="block text-xs text-white/60" href="#">
+            <a className="block text-xs text-white/60" href="https://www.linkedin.com/in/ayush-pratap-singh-7716b2295/">
               LinkedIn
             </a>
           </div>

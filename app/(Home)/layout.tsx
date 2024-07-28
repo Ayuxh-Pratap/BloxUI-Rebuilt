@@ -9,7 +9,7 @@ export default function HomeLayout({
     <main className="min-h-[100dvh] flex flex-col">
       <NavbarProvider>
         <div className="flex-grow">{children}</div>
-        <footer className="text-center border-t py-4">Made with &#10084; Under IndiBus / IndiLearn</footer>       
+        <footer className="text-center border-t py-4">Made with &#10084; By Ayush Pratap Singh</footer>       
       </NavbarProvider>
     </main>
   );

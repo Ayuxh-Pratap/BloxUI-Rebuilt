@@ -18,15 +18,15 @@
     return (
       <main className="text-white scrollbar">
         <div className="relative">
-          <div className="container relative z-50">
+          <div className="container relative z-0">
 
             {/* Hero */}
             <section className="grid grid-cols-12 items-center md:pb-16 md:pt-12 xl:pb-24 xl:pt-16">
-              <div className="relative col-span-full from-zinc-500 via-blue-300 to-blue-100 pb-6 pt-4 shadow md:col-span-3 md:hidden">
+              <div className="relative col-span-full from-zinc-500 via-blue-300 to-blue-100 pb-6 pt-4 shadow md:col-span-3 md:hidden z-[50]">
                 <img src="/images/hero-editor-flat.png" alt="" />
               </div>
 
-              <div className="col-span-full md:col-span-6">
+              <div className="col-span-full md:col-span-6 z-0">
                 <h1 className="text-4xl font-bold leading-tight 2xl:text-6xl">
                   The most-optimised Library on the planet.
                 </h1>
@@ -38,7 +38,7 @@
                 <div className="pt-5 xl:pt-10">
                   <DownloadButton />
                   <p className="pt-4 text-white opacity-60">
-                    By using VS Code, you agree to its{"  "}
+                    By using BloxUI, you agree to its{"  "}
                     <a className="text-blue-200" href="#">
                       license and privacy statements
                     </a>
@@ -68,12 +68,10 @@
               </div>
 
               <h2 className="font-semibomd pt-2.5 text-xl 2xl:text-4xl">
-                Web Templates Content Through AI ...
+              Web Templates & Components with BloxUI
               </h2>
               <p className="pb-5 pt-5 text-white/80 md:pb-11">
-                Debug code right from the editor. Launch or attach to your running
-                apps and debug with break points, call stacks, and an interactive
-                console.
+              Build and customize modern web apps. Easily integrate components, templates, and CLI tools to accelerate your development process.
               </p>
 
               <button className="rounded bg-[#20252a] px-5 py-2.5">
@@ -119,12 +117,10 @@
                 <BarChart2Icon className="size-7" />
               </div>
               <h2 className="pt-2.5 text-xl font-semibold 2xl:text-4xl">
-                Maximize productivity
+              Maximize Development Efficiency
               </h2>
               <p className="pt-5 text-white/60">
-                Debug code right from the editor. Launch or attach to your running
-                apps and debug with break points, call stacks, and an interactive
-                console.
+              Accelerate your web development with BloxUI. Use pre-built components and full templates to build and customize your projects with ease.
               </p>
 
               <div className="relative block before:absolute before:top-0 before:h-12 before:w-full before:bg-background/5 before:backdrop-blur-sm after:absolute after:bottom-0 after:h-32 after:w-full after:bg-background/5 after:backdrop-blur-sm lg:hidden">
@@ -133,16 +129,14 @@
 
               <div className="space-y-2.5 pt-6">
                 <FeatureCard
-                  title="Meet IntelliSense"
-                  description="From deployments to tasks, work with your team every step of the way."
+                  title="Meet BloxCLI"
+                  description="From initialization to component addition, streamline your workflow with our custom CLI tool."
                   link="#"
                   active
                 />
                 <FeatureCard
-                  title="Embedded debugging"
-                  description="Debug code right from the editor. Launch or attach to your
-                running apps and debug with break points, call stacks, and an
-                interactive console."
+                  title="Full Website Templates"
+                  description="Deploy entire website templates quickly and efficiently, ensuring optimal performance and customization."
                   link="#"
                 />
               </div>
@@ -157,12 +151,10 @@
               </div>
 
               <h2 className="pt-2.5 text-xl font-semibold 2xl:text-4xl">
-                Deployment is easy
+              Deployment is a breeze
               </h2>
               <p className="pt-5 text-white/60">
-                Debug code right from the editor. Launch or attach to your running
-                apps and debug with break points, call stacks, and an interactive
-                console.
+              Build, deploy, and optimize your web applications effortlessly with BloxUI. Utilize our advanced components and templates to streamline your development process.
               </p>
 
               <img
@@ -173,15 +165,13 @@
 
               <div className="space-y-2.5 pt-6">
                 <FeatureCard
-                  title="Meet IntelliSense"
-                  description="From deployments to tasks, work with your team every step of the way."
+                  title="Meet BloxCLI"
+                  description="From project initialization to adding complex components, BloxCLI simplifies your development workflow."
                   link="#"
                 />
                 <FeatureCard
-                  title="Embedded debugging"
-                  description="Debug code right from the editor. Launch or attach to your
-                running apps and debug with break points, call stacks, and an
-                interactive console."
+                  title="Optimized Templates"
+                  description="Quickly deploy optimized full website templates, ensuring high performance and seamless customization."
                   link="#"
                 />
               </div>
@@ -206,9 +196,7 @@
                 Customize all you want
               </h2>
               <p className="pt-5 text-white/60">
-                Debug code right from the editor. Launch or attach to your running
-                apps and debug with break points, call stacks, and an interactive
-                console.
+              Tailor your projects to perfection with BloxUI. Leverage our extensive library of components and customization options to create the perfect user interface.
               </p>
 
               <div className="block w-full pt-6 md:hidden">
@@ -217,13 +205,13 @@
 
               <div className="space-y-2.5 pt-6">
                 <FeatureCard
-                  title="Over 7,000,000+ extensions"
-                  description="Working with Git and other SCM providers has never been easier. ."
+                  title="Over 1000+ Components"
+                  description="Working with our extensive library has never been easier.. ."
                   link="#"
                 />
                 <FeatureCard
-                  title="Choose your own theme"
-                  description="With Microsoft Azure you can deploy and host your React, Angular, Vue, Node, Python (and more!) sites."
+                  title="Choose your own Design"
+                  description="With BloxUI, you can deploy and host your React, Vue, Angular, and more."
                   link="#"
                 />
               </div>
@@ -236,7 +224,7 @@
               <h1 className="text-xl font-semibold 2xl:text-4xl">
                 Loved by developers of all shapes and sizes
               </h1>
-              <p className="pt-5 text-white/60">(Yes, even Java developers)</p>
+              <p className="pt-5 text-white/60">(Yes, even those developers .. iykyk)</p>
             </div>
 
             <div className="pt-16">
@@ -263,8 +251,8 @@
               <DownloadButton />
             </div>
             <p className="pt-5 text-xs">
-              By using VS Code, you agree to its{" "}
-              <a className="text-accent" href="">
+              By using BloxUI, you agree to its{" "}
+              <a className="text-blue-200" href="">
                 license and privacy statement.
               </a>
             </p>
