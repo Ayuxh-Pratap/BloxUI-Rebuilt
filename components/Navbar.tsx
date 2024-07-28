@@ -13,7 +13,12 @@ const NavbarProvider = ({children}:{children:React.ReactNode}) => {
           {
             icon: <BookIcon />,
             text: "Docs",
-            url: "/docs/folder-1/get-started",
+            url: "/docs/folder-1/overview",
+          },
+          {
+            icon: <BookIcon />,
+            text: "About",
+            url: "/docs/folder-1/about",
           },
           {
             type: "menu",
@@ -21,15 +26,48 @@ const NavbarProvider = ({children}:{children:React.ReactNode}) => {
             items: [
               
               {
-                text: "Layout",
+                text: "Install",
 
-                url: "/docs/folder-1/get-started",
+                url: "/docs/folder-1/init",
 
                 icon: <IconLayout />,
               },
               {
-                text: "Code",
-                url: "/docs/folder-1/get-started",
+                text: "Features",
+                url: "/docs/folder-1/codef",
+                icon: <Code />,
+              },
+            ],
+          },
+          
+          {
+            text: "Icon",
+            type: "icon",
+            url: "/docs/folder-1/get-started",
+            label: "test",
+            icon: <BookIcon />,
+          },
+
+          {
+            type: "menu",
+            text: "Services",
+            items: [
+              
+              {
+                text: "Code Ground",
+
+                url: "/docs/folder-2/intro",
+
+                icon: <IconLayout />,
+              },
+              {
+                text: "CLI Components",
+                url: "/docs/folder-4/intro",
+                icon: <Code />,
+              },
+              {
+                text: "CLI Templates",
+                url: "/docs/folder-3/intro",
                 icon: <Code />,
               },
             ],
