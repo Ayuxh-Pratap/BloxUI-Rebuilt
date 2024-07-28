@@ -9,7 +9,7 @@ export default function Layout({ children }: { children: ReactNode }) {
   return (
     <DocsLayout
       nav={{ title: "BloxUI." }}
-      githubUrl="https://github.com/"
+      githubUrl="https://github.com/Ayuxh-Pratap/BloxUI-Rebuilt"
       sidebar={{
         banner: (
           <RootToggle

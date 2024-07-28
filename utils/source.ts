@@ -96,6 +96,7 @@ export const pageTree: PageTree.Root = {
         { type: "separator", name: "Get Started" },
         { type: "page", name: "Introduction", url: "/docs/folder-4/intro" },
         { type: "page", name: "How to Use", url: "/docs/folder-4/how2" },
+        { type: "page", name: "Quick Links", url: "/docs/folder-4/quick" },
 
         { type: "separator", name: "Hero Section" },
         { type: "page", name: "Hero 1", url: "/docs/folder-4/hero" },
@@ -123,10 +124,6 @@ export const sidebarOptions: BaseLayoutProps = {
       text: "Documentation",
       url: "/",
       active: "nested-url",
-    },
-    {
-      text: "Porfolio",
-      url: "/",  
     },
     {
       text: "Buy Premium",
