@@ -29,6 +29,7 @@ export const pageTree: PageTree.Root = {
         { type: "page", name: "Overview", url: "/docs/folder-1/overview" },
         { type: "page", name: "What's BloxUI", url: "/docs/folder-1/bloxui" },
         { type: "page", name: "About", url: "/docs/folder-1/about" },
+        { type: "page", name: "Quick Links", url: "/docs/folder-1/quick" },
 
         { type: "separator", name: "Installation" },
         { type: "page", name: "Init", url: "/docs/folder-1/init" },
