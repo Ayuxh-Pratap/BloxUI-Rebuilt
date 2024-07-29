@@ -274,7 +274,7 @@ export default function Home() {
             <h1 className="text-xl font-semibold 2xl:text-4xl">
               Loved by developers of all shapes and sizes
             </h1>
-            <p className="pt-5 text-white/60">(Yes, even those developers .. iykyk)</p>
+            <p className="pt-5 text-white/60">(Yes, even Java developers)</p>
           </div>
 
           <div className="pt-16">
