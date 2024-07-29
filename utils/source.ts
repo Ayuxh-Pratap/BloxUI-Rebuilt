@@ -126,6 +126,7 @@ export const pageTree: PageTree.Root = {
 
         { type: "separator", name: "Animations" },
         { type: "page", name: "Animation 1", url: "/docs/folder-5/anim"},
+        { type: "page", name: "Animation 2", url: "/docs/folder-5/anim1"},
         
       ],
     },
