@@ -86,6 +86,10 @@ export const pageTree: PageTree.Root = {
         { type: "page", name: "OneTask", url: "/docs/folder-3/saas4" },
         { type: "page", name: "SpendIn", url: "/docs/folder-3/saas5" },
         { type: "page", name: "NextLand", url: "/docs/folder-3/saas6" },
+        { type: "page", name: "GitHub", url: "/docs/folder-3/saas7" },
+        { type: "separator", name: "Edtech Platforms" },
+        { type: "page", name: "Coursean", url: "/docs/folder-3/edtech1" },
+        { type: "page", name: "Academia", url: "/docs/folder-3/edtech2" },
       ],
     },
     {
