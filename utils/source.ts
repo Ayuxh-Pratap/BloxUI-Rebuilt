@@ -114,6 +114,21 @@ export const pageTree: PageTree.Root = {
         
       ],
     },
+    {
+      type: "folder",
+      name: "Folder 5",
+      root: true,
+      defaultOpen: false,
+      children: [
+        { type: "separator", name: "Get Started" },
+        { type: "page", name: "Introduction", url: "/docs/folder-5/intro" },
+        { type: "page", name: "How to Use", url: "/docs/folder-4/how2" },
+
+        { type: "separator", name: "Animations" },
+        { type: "page", name: "Animation 1", url: "/docs/folder-5/anim"},
+        
+      ],
+    },
   ],
 };
 

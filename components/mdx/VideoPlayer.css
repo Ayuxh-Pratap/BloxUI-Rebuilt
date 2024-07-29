@@ -1,0 +1,31 @@
+/* src/components/VideoPlayer.css */
+
+.video-player-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video-player {
+    width: 100%;
+    max-width: 800px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.controls button {
+    margin: 0 5px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.controls button:hover {
+    background-color: #0056b3;
+}
