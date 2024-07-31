@@ -143,10 +143,15 @@ export const pageTree: PageTree.Root = {
         { type: "separator", name: "Get Started" },
         { type: "page", name: "Introduction", url: "/docs/folder-6/intro" },
 
-        { type: "separator", name: "Get Started" },
+        { type: "separator", name: "Code" },
+        { type: "page", name: "Code Generator", url: "/docs/folder-6/component-code" },
+        { type: "page", name: "CSS Helper", url: "/docs/folder-6/csshelper" },
+        { type: "page", name: "SEO Metadata Generator", url: "/docs/folder-6/metadata" },
+
+        { type: "separator", name: "Content" },
         { type: "page", name: "YouTube Idea", url: "/docs/folder-6/content" },
         { type: "page", name: "YouTube Description", url: "/docs/folder-6/description" },
-        
+
       ],
     },
   ],

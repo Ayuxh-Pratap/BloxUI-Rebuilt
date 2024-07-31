@@ -1,0 +1,56 @@
+---
+title: BloxAI
+description: more about BloxUI
+---
+
+import { Accordion, Accordions } from 'fumadocs-ui/components/accordion';
+
+## CSS Helper (Beta)
+Welcome to the **BloxAI CSS Helper**! This tool is designed to assist you in writing efficient and effective CSS for your web projects.
+
+<Accordions>
+<Accordion title="How it Works">
+1. **Enter CSS Requirement**: This field allows you to specify the styling needs for your project. Provide detailed information on what you want to achieve with your CSS.
+
+2. **Generate CSS**: Click the "Generate CSS" button to produce the CSS code based on your requirements.
+</Accordion>
+
+<Accordion title="Tips for Writing Effective CSS">
+- **Use Specific Selectors**: Target elements precisely to avoid unintended styling.
+- **Keep It Organized**: Group related styles and use comments to keep your CSS organized.
+- **Optimize for Performance**: Write efficient CSS to ensure fast loading times and good performance.
+- **Use Variables**: Leverage CSS variables for consistent and easily maintainable styling.
+- **Consider Responsiveness**: Ensure your CSS is adaptable to different screen sizes and devices.
+</Accordion>
+
+<Accordion title="Example">
+**CSS Requirement**: 
+- Style a button with a gradient background, rounded corners, and a hover effect that changes the background color.
+
+**Generated CSS**:
+```css
+/* Button Styles */
+.button {
+  background: linear-gradient(45deg, #ff6b6b, #f06595);
+  border-radius: 12px;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.button:hover {
+  background: #f06595;
+}
+```
+</Accordion>
+</Accordions>
+
+### Enter Here
+
+import Csshelper from "components/bloxai/csshelper";
+
+<Csshelper />
+
+***Note: This feature is currently in the beta phase and may not generate perfect code. Please review and modify the generated code as necessary.***

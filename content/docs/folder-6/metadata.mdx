@@ -1,0 +1,51 @@
+---
+title: BloxAI
+description: more about BloxUI
+---
+
+import { Accordion, Accordions } from 'fumadocs-ui/components/accordion';
+
+## SEO Metadata Generator (Beta)
+Welcome to the **BloxAI SEO Metadata Generator**! This tool is designed to help you create SEO-friendly metadata for your webpages, improving their visibility in search engines.
+
+<Accordions>
+<Accordion title="How it Works">
+1. **Enter Page Description**: This field allows you to specify the details of your webpage. Provide a concise and clear description to generate accurate metadata.
+
+2. **Generate Metadata**: Click the "Generate Metadata" button to produce SEO-friendly metadata (title, description, keywords) based on your page description.
+</Accordion>
+
+<Accordion title="Tips for Effective SEO Metadata">
+- **Be Descriptive**: Use clear and descriptive language to accurately represent the content of your webpage.
+- **Include Keywords**: Incorporate relevant keywords that users are likely to search for.
+- **Keep it Concise**: Metadata should be concise yet informative, keeping within recommended character limits.
+- **Unique Titles and Descriptions**: Ensure each page has unique titles and descriptions to avoid duplication.
+- **Use Action Words**: Use action-oriented language to encourage clicks from search results.
+</Accordion>
+
+<Accordion title="Example">
+**Page Description**: 
+- An e-commerce page selling the latest smartphones, featuring detailed product descriptions, reviews, and pricing information.
+
+**Generated Metadata**:
+```html
+<!-- Title -->
+<title>Buy the Latest Smartphones - Reviews, Prices, and More</title>
+
+<!-- Meta Description -->
+<meta name="description" content="Explore our selection of the latest smartphones with detailed reviews, competitive prices, and customer ratings. Shop now for the best deals on top brands.">
+
+<!-- Meta Keywords -->
+<meta name="keywords" content="latest smartphones, smartphone reviews, buy smartphones online, smartphone prices, best smartphone deals">
+```
+</Accordion>
+</Accordions>
+
+
+### Enter Here
+
+import Metadata from "components/bloxai/metadata";
+
+<Metadata />
+
+***Note: This feature is currently in the beta phase and may not generate perfect code. Please review and modify the generated code as necessary.***

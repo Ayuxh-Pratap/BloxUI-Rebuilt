@@ -4,6 +4,9 @@ import {
     FaTiktok,
     FaLinkedin,
     FaTwitter,
+    FaCode,
+    FaCss3Alt,
+    FaSearch,
   } from "react-icons/fa";
   
   export const contentTemplates = [
@@ -48,6 +51,57 @@ import {
           label: "Enter video outline",
           field: "textarea",
           name: "outline",
+        },
+      ],
+    },
+    {
+      name: "Component Code Generator",
+      desc: "An AI tool that generates React component code based on your description",
+      category: "Frontend",
+      icon: FaCode,
+      aiPrompt: 
+        "Create a React component for given component-description. Use Tailwind CSS for styling.",
+      slug: "component-code-generator",
+      form: [
+        {
+          label: "Component Description",
+          field: "textarea",
+          name: "description",
+          required: true,
+        },
+      ],
+    },
+    {
+      name: "CSS Helper",
+      desc: "An AI tool that provides CSS suggestions or complete snippets based on your description",
+      category: "Frontend",
+      icon: FaCss3Alt,
+      aiPrompt: 
+        "Provide CSS suggestions or complete snippets based on the following description.",
+      slug: "css-helper",
+      form: [
+        {
+          label: "CSS Description",
+          field: "textarea",
+          name: "description",
+          required: true,
+        },
+      ],
+    },
+    {
+      name: "SEO Metadata Generator",
+      desc: "An AI tool that generates SEO-friendly metadata for webpages",
+      category: "SEO",
+      icon: FaSearch,
+      aiPrompt: 
+        "Generate SEO-friendly metadata (title, description, keywords) based on the following page description.",
+      slug: "seo-metadata-generator",
+      form: [
+        {
+          label: "Page Description",
+          field: "textarea",
+          name: "description",
+          required: true,
         },
       ],
     },
