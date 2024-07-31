@@ -24,6 +24,6 @@
       }
     ]
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/ShinyButton.mdx", "components/ui/button3dmain.tsx", "components/ShinyCard.tsx", "components/mdx/Ytvideo.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/ShinyButton.mdx", "components/ui/button3dmain.tsx", "components/ShinyCard.tsx", "components/mdx/Ytvideo.jsx", "components/bloxai/monaco.tsx"],
   "exclude": ["node_modules"]
 }

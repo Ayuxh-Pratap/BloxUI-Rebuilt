@@ -142,6 +142,7 @@ export const pageTree: PageTree.Root = {
       children: [
         { type: "separator", name: "Get Started" },
         { type: "page", name: "Introduction", url: "/docs/folder-6/intro" },
+        { type: "page", name: "Quick Links", url: "/docs/folder-6/quick" },
 
         { type: "separator", name: "Code" },
         { type: "page", name: "Code Generator", url: "/docs/folder-6/component-code" },

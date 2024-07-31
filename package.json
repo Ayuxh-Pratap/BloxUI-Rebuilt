@@ -10,6 +10,7 @@
   "dependencies": {
     "@frank-mayer/react-tag-cloud": "^1.2.1",
     "@google/generative-ai": "^0.16.0",
+    "@monaco-editor/react": "^4.6.0",
     "@radix-ui/react-select": "^2.1.1",
     "framer-motion": "^11.3.8",
     "fumadocs-core": "12.4.1",
