@@ -9,6 +9,7 @@ import { LoaderIcon } from 'lucide-react';
 import { Editor } from './editor';
 import { chatSession } from '@/lib/gemini-ai';
 import "./custom.css"
+import { Monaco } from './monaco';
 
 interface templateSlugProps {
   templateSlug: string;

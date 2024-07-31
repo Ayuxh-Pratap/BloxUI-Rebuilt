@@ -61,7 +61,7 @@ import {
       category: "Frontend",
       icon: FaCode,
       aiPrompt: 
-        "Create a React component for given component-description. Use Tailwind CSS for styling.",
+        "Create a React component for given component-description. Use Tailwind CSS for styling. No MDX format , comment out anyother text beside code. NO use of backticks .. act like a IDE like VS COde",
       slug: "component-code-generator",
       form: [
         {
