@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import Logo from "@/components/logo";
+import ContentButton from "@/components/pages/home/content-button";
 import DesktopExtentions from "@/components/pages/home/desktop-extensions";
 import DownloadButton from "@/components/pages/home/download-button";
 import FeatureCard from "@/components/pages/home/feature-card";
@@ -37,7 +38,10 @@ export default function Home() {
               </p>
 
               <div className="pt-5 xl:pt-10">
+                <div className="flex gap-4">
                 <DownloadButton />
+                <ContentButton />
+                </div>
                 <p className="pt-4 text-white opacity-60">
                   By using BloxUI, you agree to its{"  "}
                   <a className="text-blue-200" href="#">

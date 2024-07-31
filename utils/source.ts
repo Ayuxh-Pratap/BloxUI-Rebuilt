@@ -134,6 +134,20 @@ export const pageTree: PageTree.Root = {
         
       ],
     },
+    {
+      type: "folder",
+      name: "Folder 6",
+      root: true,
+      defaultOpen: false,
+      children: [
+        { type: "separator", name: "Get Started" },
+        { type: "page", name: "Introduction", url: "/docs/folder-6/intro" },
+
+        { type: "separator", name: "Get Started" },
+        { type: "page", name: "YouTube Description", url: "/docs/folder-6/content" },
+        
+      ],
+    },
   ],
 };
 
