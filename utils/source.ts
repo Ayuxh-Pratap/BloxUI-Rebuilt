@@ -145,6 +145,7 @@ export const pageTree: PageTree.Root = {
 
         { type: "separator", name: "Get Started" },
         { type: "page", name: "YouTube Idea", url: "/docs/folder-6/content" },
+        { type: "page", name: "YouTube Description", url: "/docs/folder-6/description" },
         
       ],
     },
