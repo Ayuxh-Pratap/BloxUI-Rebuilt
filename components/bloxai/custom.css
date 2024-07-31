@@ -1,0 +1,69 @@
+.ql-container {
+    border: 1px solid #cccccc39;
+    border-radius: 8px;
+  }
+
+  .ql-toolbar {
+    display: none;
+  }
+
+  .ql-tooltip-editor {
+    display: none;
+  }
+  
+  .ql-editor {
+    min-height: 40rem;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .ql-editor p {
+    margin: 0;
+  }
+  
+  .ql-editor strong {
+    font-weight: bold;
+  }
+  
+  .ql-editor em {
+    font-style: italic;
+  }
+  
+  .ql-editor u {
+    text-decoration: underline;
+  }
+  
+  .ql-editor a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  .ql-editor img {
+    max-width: 100%;
+    border-radius: 4px;
+  }
+  
+  .ql-editor ul,
+  .ql-editor ol {
+    margin: 0;
+    padding-left: 20px;
+  }
+  
+  .ql-editor li {
+    margin: 0;
+  }
+  
+  .ql-toolbar button {
+    border: none;
+    background: transparent;
+  }
+  
+  .ql-toolbar button:hover {
+    background: #f0f0f0;
+  }
+  
+  .ql-toolbar .ql-active {
+    background: #ddd;
+  }
+  
