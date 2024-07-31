@@ -149,6 +149,7 @@ export const pageTree: PageTree.Root = {
         { type: "page", name: "SEO Metadata Generator", url: "/docs/folder-6/metadata" },
 
         { type: "separator", name: "Content" },
+        { type: "page", name: "Website Content", url: "/docs/folder-6/sectioncontent" },
         { type: "page", name: "YouTube Idea", url: "/docs/folder-6/content" },
         { type: "page", name: "YouTube Description", url: "/docs/folder-6/description" },
 

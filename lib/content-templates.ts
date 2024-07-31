@@ -7,6 +7,7 @@ import {
     FaCode,
     FaCss3Alt,
     FaSearch,
+    FaWeebly
   } from "react-icons/fa";
   
   export const contentTemplates = [
@@ -102,6 +103,37 @@ import {
           field: "textarea",
           name: "description",
           required: true,
+        },
+      ],
+    },
+    {
+      name: "Website Content Generator",
+      desc: "An AI tool that generates content for various sections of a website based on your inputs.",
+      category: "Website",
+      icon: FaWeebly,
+      aiPrompt:
+        "Generate content for the specified website section based on the provided details. The result should be formatted in a Rich Text Editor format.",
+      slug: "website-content",
+      form: [
+        {
+          label: "Select Website Section",
+          field: "input",
+          name: "title",
+          options: [
+            { value: "hero", label: "Hero Section" },
+            { value: "about", label: "About Section" },
+            { value: "services", label: "Services Section" },
+            { value: "contact", label: "Contact Section" },
+            // Add more sections as needed
+          ],
+          required: true,
+        },
+        {
+          label: "Enter Section Details",
+          field: "textarea",
+          name: "description",
+          required: true,
+          placeholder: "Provide details or keywords related to the section you want to generate content for.",
         },
       ],
     },
