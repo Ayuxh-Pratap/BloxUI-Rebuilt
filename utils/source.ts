@@ -153,10 +153,6 @@ export const pageTree: PageTree.Root = {
         { type: "page", name: "Website Content", url: "/docs/folder-6/sectioncontent" },
         { type: "page", name: "YouTube Idea", url: "/docs/folder-6/content" },
         { type: "page", name: "YouTube Description", url: "/docs/folder-6/description" },
-        { type: "page", name: "Excel Draw", url: "/docs/folder-6/exceldraw" },
-        { type: "page", name: "Draw Io", url: "/docs/folder-6/drawio" },
-        { type: "page", name: "Draw", url: "/docs/folder-6/tldraw" },
-
       ],
     },
   ],
@@ -164,12 +160,17 @@ export const pageTree: PageTree.Root = {
 
 export const sidebarOptions: BaseLayoutProps = {
   nav: {
-    title: "BloxUI Docs",
+    title: "BloxUI >",
   },
   links: [
     {
       text: "Documentation",
       url: "/",
+      active: "nested-url",
+    },
+    {
+      text: "Blox Draw",
+      url: "/Draw",
       active: "nested-url",
     },
     {
