@@ -72,13 +72,10 @@ const NavbarProvider = ({children}:{children:React.ReactNode}) => {
               },
             ],
           },
-          
           {
-            text: "Icon",
-            type: "icon",
-            url: "/docs/folder-1/get-started",
-            label: "test",
             icon: <BookIcon />,
+            text: "Blox Draw",
+            url: "/Draw",
           },
         ]}
       >
