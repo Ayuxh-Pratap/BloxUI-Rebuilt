@@ -8,7 +8,7 @@
 
 **BloxUI** is a powerful, open-source React and Tailwind CSS component library designed to streamline the development of modern web applications. With a wide range of pre-built, customizable components and full website templates, BloxUI aims to make UI development faster, more efficient, and enjoyable.
 
-![BloxUI Logo](link-to-your-logo-image)
+![BloxUI Logo](https://youtu.be/9qlEKm2YQec)
 
 ## Table of Contents
 
