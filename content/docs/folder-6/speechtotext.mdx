@@ -1,0 +1,41 @@
+---
+title: BloxAI
+description: more about BloxUI
+---
+
+import { Accordion, Accordions } from 'fumadocs-ui/components/accordion';
+
+## Speech to Text Converter (Beta)
+Welcome to the **BloxAI Speech to Text Converter**! This tool helps you convert spoken words into text using AI-powered speech recognition.
+
+<Accordions>
+<Accordion title="How it Works">
+1. **Upload Audio File**: Upload an audio file or record your speech directly in the application.
+
+2. **Generate Text**: Click the "Convert to Text" button to transcribe the audio into text using the Gemini API.
+
+3. **Review and Edit**: Once the transcription is complete, review the text and make any necessary edits.
+</Accordion>
+
+<Accordion title="Tips for Accurate Transcriptions">
+- **Clear Audio**: Ensure the audio is clear and free from background noise.
+- **Speak Clearly**: Speak clearly and at a moderate pace for better accuracy.
+- **Use a Good Microphone**: Using a quality microphone can significantly improve transcription accuracy.
+- **Avoid Overlapping Speech**: Try to avoid multiple people speaking simultaneously.
+</Accordion>
+
+<Accordion title="Example">
+**Audio File**: An audio recording of a meeting discussion about project milestones.
+
+**Generated Text**:
+"Today we discussed the milestones for the upcoming project. The first milestone is to complete the initial design phase by the end of the month. The second milestone involves developing the core functionalities, which should be done by mid-next month. Finally, we aim to start user testing by the end of next month."
+</Accordion>
+</Accordions>
+
+### Speak Here
+
+import SpeechToText from "components/bloxai/speechtotext/SpeechToText";
+
+<SpeechToText />
+
+***Note: This feature is currently in the beta phase and may not generate perfect code. Please review and modify the generated code as necessary.***
