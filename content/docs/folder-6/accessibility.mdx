@@ -1,0 +1,68 @@
+---
+title: BloxAI
+description: more about BloxUI
+---
+
+import { Accordion, Accordions } from 'fumadocs-ui/components/accordion';
+
+## Accessibility Checker (Beta)
+Welcome to the **BloxAI Accessibility Checker**! This tool is designed to help you enhance the accessibility of your web projects by analyzing your HTML/CSS code and suggesting improvements.
+
+<Accordions>
+<Accordion title="How it Works">
+1. **Enter HTML/CSS Code**: Paste your HTML and CSS code into the provided field. The tool will analyze this code for accessibility issues.
+
+2. **Generate Accessibility Report**: Click the "Generate Report" button to receive a detailed accessibility report with suggestions for improvements.
+</Accordion>
+
+<Accordion title="Tips for Enhancing Accessibility">
+- **Use Semantic HTML**: Ensure your HTML elements are used appropriately to convey meaning and structure.
+- **Provide Alt Text for Images**: Always include descriptive alt text for images.
+- **Ensure Keyboard Accessibility**: Make sure all interactive elements are accessible via keyboard navigation.
+- **Use ARIA Labels**: Utilize ARIA attributes to enhance accessibility where native HTML elements fall short.
+- **Maintain Sufficient Color Contrast**: Ensure text and background colors have sufficient contrast for readability.
+</Accordion>
+
+<Accordion title="Example">
+**HTML/CSS Code**: 
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accessible Web Page</title>
+  <style>
+    .button {
+      background: #007BFF;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .button:focus {
+      outline: 2px solid #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <button class="button">Click Me</button>
+</body>
+</html>
+```
+Generated Accessibility Report:
+
+Add alt attribute to images.
+Ensure all interactive elements are accessible via keyboard.
+Verify color contrast meets WCAG standards.
+</Accordion>
+</Accordions>
+
+### Enter Here
+
+import Accessibility from "components/bloxai/accessibility";
+
+<Accessibility />
+
+***Note: This feature is currently in the beta phase and may not generate perfect code. Please review and modify the generated code as necessary.***

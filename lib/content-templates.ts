@@ -7,7 +7,7 @@ import {
     FaCode,
     FaCss3Alt,
     FaSearch,
-    FaWeebly
+    FaWeebly,
   } from "react-icons/fa";
   
   export const contentTemplates = [
@@ -134,6 +134,38 @@ import {
           name: "description",
           required: true,
           placeholder: "Provide details or keywords related to the section you want to generate content for.",
+        },
+      ],
+    },
+    {
+      name: "Accessibility Checker",
+      desc: "An AI tool that analyzes provided HTML/CSS code and suggests improvements to enhance accessibility",
+      category: "Frontend",
+      aiPrompt: 
+        "Analyze the following HTML/CSS code and suggest improvements to enhance accessibility. Provide detailed recommendations.",
+      slug: "accessibility-checker",
+      form: [
+        {
+          label: "Code",
+          field: "textarea",
+          name: "code",
+          required: true,
+        },
+      ],
+    },
+    {
+      name: "Design Inspiration",
+      desc: "An AI tool that generates design ideas or mockups based on user input",
+      category: "Frontend",
+      aiPrompt: 
+        "Generate design ideas or mockups based on the following user input about the type of site or component they want to create.",
+      slug: "design-inspiration",
+      form: [
+        {
+          label: "Design Requirements",
+          field: "textarea",
+          name: "requirements",
+          required: true,
         },
       ],
     },

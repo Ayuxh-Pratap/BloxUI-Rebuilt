@@ -148,9 +148,11 @@ export const pageTree: PageTree.Root = {
         { type: "page", name: "Code Generator", url: "/docs/folder-6/component-code" },
         { type: "page", name: "CSS Helper", url: "/docs/folder-6/csshelper" },
         { type: "page", name: "SEO Metadata Generator", url: "/docs/folder-6/metadata" },
+        { type: "page", name: "Accessibility Checker", url: "/docs/folder-6/accessibility" },
 
         { type: "separator", name: "Content" },
         { type: "page", name: "Website Content", url: "/docs/folder-6/sectioncontent" },
+        { type: "page", name: "Design Inspiration", url: "/docs/folder-6/design" },
         { type: "page", name: "YouTube Idea", url: "/docs/folder-6/content" },
         { type: "page", name: "YouTube Description", url: "/docs/folder-6/description" },
       ],
