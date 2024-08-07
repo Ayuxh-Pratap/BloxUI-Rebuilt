@@ -7,7 +7,7 @@ import FeatureCard from "@/components/pages/home/feature-card";
 import Footer from "@/components/pages/home/footer";
 import PhoneExtentions from "@/components/pages/home/phone-extentions";
 import ReviewCard from "@/components/pages/home/review-card";
-import { BorderBeam } from "@/components/ui/border-beam";
+import BorderBeam from "@/components/ui/border-beam";
 import { Button } from "@/components/ui/button";
 import { ParallaxText } from "@/components/ui/scroll-vallocity";
 import { CoolMode } from "@/components/ui/cool-mode";
