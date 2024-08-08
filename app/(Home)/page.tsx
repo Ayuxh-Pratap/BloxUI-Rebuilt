@@ -18,6 +18,8 @@ import Wrapper from "@/components/global/wrapper";
 import { LampContainer } from "@/components/ui/lamp";
 import Footer2 from "@/components/footer";
 import { Input } from "@/components/ui/input";
+import { ChatButton } from "@/components/ui/chat-component";
+import { ChatComponentDemo } from "@/components/ui/ai-chat";
 
 const perks = [
   {
@@ -110,6 +112,9 @@ export default function Home() {
 
   return (
     <main className="text-white scrollbar overflow-hidden">
+      <div>
+        <ChatComponentDemo />
+      </div>
       {/* <div className="absolute top-0 z-[-2] h-screen w-full bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"/> */}
       <div className="absolute inset-0 dark:bg-[linear-gradient(to_right,#_1px,transparent_1px),linear-gradient(to_bottom,#e2e8f0_1px,transparent_1px)] bg-[linear-gradient(to_right,#161616_1px,transparent_1px),linear-gradient(to_bottom,#161616_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_110%)] -z-10 h-[150vh] mt-12" />
       <div className="relative">
