@@ -1,10 +1,4 @@
 /* eslint-disable @next/next/no-img-element */
-import ContentButton from "@/components/pages/home/content-button";
-import DesktopExtentions from "@/components/pages/home/desktop-extensions";
-import DownloadButton from "@/components/pages/home/download-button";
-import FeatureCard from "@/components/pages/home/feature-card";
-import Footer from "@/components/pages/home/footer";
-import PhoneExtentions from "@/components/pages/home/phone-extentions";
 import ReviewCard from "@/components/pages/home/review-card";
 import BorderBeam from "@/components/ui/border-beam";
 import { Button } from "@/components/ui/button";
@@ -14,26 +8,18 @@ import Icons from "../../components/global/icons";
 import main from "../../public/main.png"
 import {
   ArrowRight,
-  BarChart2Icon,
   ChevronRight,
-  CornerRightUpIcon,
-  DownloadIcon,
-  SearchIcon,
-  SlidersVerticalIcon,
-  UserIcon,
 } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import Container from "@/components/global/container";
 import SectionBadge from "@/components/ui/section-badge";
 import Wrapper from "@/components/global/wrapper";
-import Marquee from "@/components/ui/marquee";
-import { cn } from "@/lib/utils";
-import { Input } from "@/components/ui/input";
 import { LampContainer } from "@/components/ui/lamp";
 import Footer2 from "@/components/footer";
+import { Input } from "@/components/ui/input";
 
-export const perks = [
+const perks = [
   {
     icon: Icons.auth,
     title: "Explore",
@@ -51,7 +37,7 @@ export const perks = [
   },
 ];
 
-export const features = [
+const features = [
   {
     icon: Icons.bolt,
     title: "Fast Setup",
@@ -84,7 +70,7 @@ export const features = [
   },
 ];
 
-export const reviews = [
+const reviews = [
   {
     name: "Jack",
     username: "@jack",
@@ -297,7 +283,7 @@ export default function Home() {
                     Build stunning websites with BloxUI&apos;s intuitive CLI builder and powerful AI assistant
                   </p>
                   <Button className="mt-6" asChild>
-                    <Link href="/sign-in">
+                    <Link href="/docs/folder-1/overview">
                       Get started for free
                       <ArrowRight className="w-4 h-4 ml-2" />
                     </Link>
@@ -313,7 +299,7 @@ export default function Home() {
                       Join our newsletter
                     </h4>
                     <p className="text-base text-muted-foreground">
-                      Be up to date with everything about Blox
+                      Be up to date with everything about BloxUI
                     </p>
                   </div>
                   <div className="flex flex-col items-start gap-2 md:min-w-80 mt-5 md:mt-0 w-full md:w-max">
