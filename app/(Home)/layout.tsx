@@ -8,8 +8,7 @@ export default function HomeLayout({
   return (
     <main className="min-h-[100dvh] flex flex-col">
       <NavbarProvider>
-        <div className="flex-grow">{children}</div>
-        <footer className="text-center border-t py-4">Made with &#10084; By Ayush Pratap Singh</footer>       
+        <div className="flex-grow">{children}</div>     
       </NavbarProvider>
     </main>
   );
