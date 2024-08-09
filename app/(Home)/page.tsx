@@ -148,7 +148,7 @@ export default function Home() {
                 <p className="text-base md:text-lg text-foreground/80 mt-6 text-center">
                   Zero code, maximum speed. Make professional sites easy, fast and fun while delivering best-in-class SEO, performance.
                 </p>
-                <div className="hidden md:flex relative items-center justify-center mt-8 md:mt-12 w-full">
+                <div className="md:flex relative items-center justify-center mt-8 md:mt-12 w-full">
                   <Link href="/docs/folder-1/overview" className="flex items-center justify-center w-max rounded-full border-t border-foreground/30 bg-white/20 backdrop-blur-lg px-2 py-1 md:py-2 gap-2 md:gap-8 shadow-3xl shadow-background/40 cursor-pointer select-none">
                     <p className="text-foreground text-sm text-center md:text-base font-medium pl-4 pr-4 lg:pr-0">
                       ✨ {"  "} Start building your dream website now!
