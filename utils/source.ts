@@ -61,6 +61,8 @@ export const pageTree: PageTree.Root = {
         { type: "separator", name: "Buttons" },
         { type: "page", name: "Squeezy Button", url: "/docs/folder-2/button" },
         { type: "page", name: "Rolling Button", url: "/docs/folder-2/button1" },
+
+        { type: "separator", name: "Tabs" },
       ],
     },
     {
