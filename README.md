@@ -35,10 +35,6 @@ Follow these steps to get started with BloxUI and begin building your next great
 - **Node.js:** Make sure you have Node.js installed on your machine.
 - **npm or yarn:** You can use either npm or yarn as your package manager.
 
-## Quickly Start OpenSource Contribution
-
-Follow the process to fork the repo and start making contributions.
-
 ### Installation
 
 run this npx command to Initialize bloxui in your directory
