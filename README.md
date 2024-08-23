@@ -33,6 +33,7 @@ Follow these steps to get started with BloxUI and begin building your next great
 ### Prerequisites
 
 - **Node.js:** Make sure you have Node.js installed on your machine.
+- **Tailwind** Access Power of Superfast CSS.
 - **npm or yarn:** You can use either npm or yarn as your package manager.
 
 ### Installation
